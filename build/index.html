@@ -7,113 +7,117 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
 </head>
 <body>
 
     <!-- START HEADER -->
     <header class="w-full z-50 px-4">
-        <div class="container mx-auto py-1">
-          <div class="flex flex-stretch items-center justify-between">
+      <div class="container mx-auto py-1">
+        <div class="flex flex-stretch items-center justify-between">
 
-            <div class="w-56 items-center flex">
-              <img
-                src="img/logo.svg"
-                alt=""
-              />
-            </div>
-            
-            <div class="w-auto">
-              <ul
-                class="fixed bg-white inset-0 flex flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100 md:flex md:items-center"
-                id="menu"
-              >
-                <li class="mx-3 py-6 md:py-0">
-                  <a href="#" class="text-black font-bold md:text-blue-900 hover:underline"
-                    >Home</a
-                  >
-                </li>
-                <li class="mx-3 py-6 md:py-0">
-                  <a href="#" class="text-black font-bold md:text-blue-900 hover:underline"
-                    >Service</a
-                  >
-                </li>
-                <li class="mx-3 py-6 md:py-0">
-                  <a href="#" class="text-black font-bold md:text-blue-900 hover:underline"
-                    >About Us</a
-                  >
-                </li>
-              </ul>
-            </div>
+          <div class="w-56 items-center flex">
+            <img
+              src="img/logo.svg"
+              alt=""
+            />
+          </div>
+          
+          <div class="w-auto">
+            <ul
+              class="fixed bg-white inset-0 flex flex-col invisible items-center justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100 md:flex md:items-center"
+              id="menu"
+            >
+              <li class="mx-3 py-6 md:py-0">
+                <a href="index.html" class="text-black font-bold md:text-blue-900 hover:underline"
+                  >Home</a
+                >
+              </li>
+              <li class="mx-3 py-6 md:py-0">
+                <a href="service.html" class="text-black font-bold md:text-blue-900 hover:underline"
+                  >Service</a
+                >
+              </li>
+              <li class="mx-3 py-6 md:py-0">
+                <a href="about.html" class="text-black font-bold md:text-blue-900 hover:underline"
+                  >About Us</a
+                >
+              </li>
+            </ul>
+          </div>
 
-            <div class="w-auto">
-              <ul class="items-center flex">
-                <li class="ml-6 block md:hidden">
-                  <button
-                    id="menu-toggler"
-                    class="relative flex z-50 items-center justify-center w-8 h-8 text-black md:text-blue-900 focus:outline-none"
-                  >
-                    <svg
-                      class="fill-current"
-                      width="18"
-                      height="17"
-                      viewBox="0 0 18 17"
-                    >
-                      <path
-                        d="M15.9773 0.461304H1.04219C0.466585 0.461304 0 0.790267 0 1.19609C0 1.60192 0.466668 1.93088 1.04219 1.93088H15.9773C16.5529 1.93088 17.0195 1.60192 17.0195 1.19609C17.0195 0.790208 16.5529 0.461304 15.9773 0.461304Z"
-                      />
-                      <path
-                        d="M15.9773 7.68802H1.04219C0.466585 7.68802 0 8.01698 0 8.42281C0 8.82864 0.466668 9.1576 1.04219 9.1576H15.9773C16.5529 9.1576 17.0195 8.82864 17.0195 8.42281C17.0195 8.01692 16.5529 7.68802 15.9773 7.68802Z"
-                      />
-                      <path
-                        d="M15.9773 14.9147H1.04219C0.466585 14.9147 0 15.2437 0 15.6495C0 16.0553 0.466668 16.3843 1.04219 16.3843H15.9773C16.5529 16.3843 17.0195 16.0553 17.0195 15.6495C17.0195 15.2436 16.5529 14.9147 15.9773 14.9147Z"
-                      />
-                    </svg>
-                  </button>
-                </li>
-                
-              </ul>
-            </div>
-
-            <div>
+          <div class="w-auto">
+            <ul class="items-center flex">
+              <li class="ml-6 block md:hidden">
                 <button
-                    href=""
-                    class=" text-blue-900 text-bold active:bg-blue-900 active:text-white font-bold mr-4 text-sm px-5 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button">
-                    Sign In
+                  id="menu-toggler"
+                  class="relative flex z-50 items-center justify-center w-8 h-8 text-black md:text-blue-900 focus:outline-none"
+                >
+                  <svg
+                    class="fill-current"
+                    width="18"
+                    height="17"
+                    viewBox="0 0 18 17"
+                  >
+                    <path
+                      d="M15.9773 0.461304H1.04219C0.466585 0.461304 0 0.790267 0 1.19609C0 1.60192 0.466668 1.93088 1.04219 1.93088H15.9773C16.5529 1.93088 17.0195 1.60192 17.0195 1.19609C17.0195 0.790208 16.5529 0.461304 15.9773 0.461304Z"
+                    />
+                    <path
+                      d="M15.9773 7.68802H1.04219C0.466585 7.68802 0 8.01698 0 8.42281C0 8.82864 0.466668 9.1576 1.04219 9.1576H15.9773C16.5529 9.1576 17.0195 8.82864 17.0195 8.42281C17.0195 8.01692 16.5529 7.68802 15.9773 7.68802Z"
+                    />
+                    <path
+                      d="M15.9773 14.9147H1.04219C0.466585 14.9147 0 15.2437 0 15.6495C0 16.0553 0.466668 16.3843 1.04219 16.3843H15.9773C16.5529 16.3843 17.0195 16.0553 17.0195 15.6495C17.0195 15.2436 16.5529 14.9147 15.9773 14.9147Z"
+                    />
+                  </svg>
                 </button>
-                <button
-                    href=""
-                    class="bg-blue-900 text-white text-bold active:bg-blue-900 font-bold text-sm px-5 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                    type="button">
-                    Sign Up
-                </button>
-            </div>
+              </li>
+              
+            </ul>
+          </div>
+
+          <div>
+              <button
+                  href=""
+                  class=" text-blue-900 text-bold active:bg-blue-900 active:text-white font-bold mr-4 text-sm px-5 py-1 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  type="button">
+                  Masuk
+              </button>
+              <button
+                  href=""
+                  class="bg-blue-900 text-white text-bold active:bg-blue-900 font-bold text-sm px-5 py-2 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                  type="button">
+                  Daftar
+              </button>
           </div>
         </div>
-    </header>
+      </div>
+  </header>
 
-    <!-- END HEADER -->
+  <!-- END HEADER -->
 
     <!-- START HERO -->
     
     <section class="bg-blue-800 ">
         <div class="flex py-20 px-16 justify-between ">
-            <div class="self-center">
-                <h1 class="text-white font-bold text-5xl leading-normal">
+            <div class="self-center wow animate__animated animate__fadeIn">
+                <h1 class="text-white font-bold text-5xl leading-normal ">
                     Perfect Place to <br>
                     Consult Your <br>
                     Legal Problems</h1>
                 <h5 class="text-white">We are ready to solve your legal problems</h5>
 
-                <button
-                    href=""
-                    class="bg-blue-900 text-white text-bold active:bg-blue-900 font-bold text-sm px-5 py-2 mt-10 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                <a
+                    href="#service"
+                    class=" bg-blue-900 text-white text-bold active:bg-blue-900 font-bold text-sm px-5 py-2 mt-10 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                     type="button">
                     Get Ready
-                </button>
+                </a>
             </div>
-            <div class="">
+            <div class="wow animate__animated animate__fadeIn">
                 <img src="img/hero.svg" alt="">
             </div>
         </div>
@@ -124,13 +128,13 @@
 
 
     <!-- START SERVICE -->
-    <section class="py-20">
+    <section class="py-20" id="service">
         <h1 class="text-center font-bold text-2xl">All The Service That We Provide</h1>
-        <div class="flex flex-wrap mt-20 px-20 justify-around">
-            <div class="px-3 mb-6 md:mb-0">
+        <div class="flex flex-wrap mt-20 px-20 justify-around ">
+            <div class="px-3 mb-6 md:mb-0 wow animate__animated animate__fadeInLeft zoom">
                 <img class="ml-88" src="img/forum-img.svg" alt="">
             </div>
-            <div class="px-3 mb-6 md:mb-0 mt-8">
+            <div class="px-3 mb-6 md:mb-0 mt-8 wow animate__animated animate__fadeInRight">
                 <h3 class="text-xl font-bold">Legal Forums</h3>
                 <h5 class="mt-6">Tell stories and spill all feelings related to the law. <br>
                     Law Faculty students can also use this service to ask questions <br>
@@ -140,7 +144,7 @@
             </div>
         </div>
         <div class="flex flex-wrap mt-20 px-20 justify-around">
-            <div class="px-3 mb-6 md:mb-0 mt-8">
+            <div class="px-3 mb-6 md:mb-0 mt-8 wow animate__animated animate__fadeInLeft">
                 <h3 class="text-xl font-bold">Legal Consultation</h3>
                 <h5 class="mt-6">You will be assisted by someone who works as a <br>
                     Legal Practitioner to find the right solution to the legal <br>
@@ -148,23 +152,32 @@
                     very affordable price and with good consulting quality <br>
                     prioritizing your confidentiality.</h5>
             </div>
-            <div class="px-3 mb-6 md:mb-0">
+            <div class="px-3 mb-6 md:mb-0 wow animate__animated animate__fadeInRight zoom">
                 <img class="ml-88" src="img/consult-img.svg" alt="">
             </div>
         </div>
+      <div class="flex justify-center mt-10">
+        <a
+            href="service.html"
+            class="bg-blue-900  text-white text-bold active:bg-blue-900 font-bold text-sm px-5 py-2 mt-10 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+            type="button">
+            Let's Start
+        </a>
+      </div>
     </section>
     <!-- END SERVICE -->
 
     <!-- START TESTIMONIALS -->
     
-    <section class="testimonials pb-16 py-20 bg-gray-100">
-        <div class="px-16 py-10 text-center">
+    <section class="testimonials pb-16 py-20 bg-gray-100 ">
+        <div class="px-16 py-10 text-center wow animate__animated animate__slideInDown ">
             <h1 class="text-center font-bold text-3xl">What are they say</h1>
         </div>
 
-        <div class="px-16 py-10 -mx-6 lg:col-span-2 lg:mx-0 flex flex-wrap justify-around">
-            <div class="bg-white p-8 w-96 mt-8">
-                <div class="flex items-center mt-6">
+        <div class="drop-shadow-lg px-16 py-10 -mx-6 lg:col-span-2 lg:mx-0 flex flex-wrap justify-around ">
+
+            <div class="bg-white p-8 w-96 mt-8 zoom">
+                <div class="flex items-center mb-2">
                     <img alt="" src="img/testi-img.svg"/>
                     <div class="ml-3">
                         <h2 class="font-semibold text-lg">Kevin Julio</h2>
@@ -174,8 +187,8 @@
                 <p>Thanks to the consultation here I can solve problems without paying expensive lawyers</p>
             </div>
 
-            <div class="bg-white p-8 w-96 mt-8">
-                <div class="flex items-center mt-6">
+            <div class="bg-white p-8 w-96 mt-8 zoom">
+                <div class="flex items-center mb-2">
                     <img alt="" src="img/testi-img.svg"/>
                     <div class="ml-3">
                         <h2 class="font-semibold text-lg">Kevin Julio</h2>
@@ -185,8 +198,8 @@
                 <p>Thanks to the consultation here I can solve problems without paying expensive lawyers</p>
             </div>
 
-            <div class="bg-white p-8 w-96 mt-8">
-                <div class="flex items-center mt-6">
+            <div class="bg-white p-8 w-96 mt-8 zoom">
+                <div class="flex items-center mb-2">
                     <img alt="" src="img/testi-img.svg"/>
                     <div class="ml-3">
                         <h2 class="font-semibold text-lg">Kevin Julio</h2>
@@ -260,5 +273,9 @@
 
     <script src="js/main.js" async></script>
     <script src="https://www.google-analytics.com/analytics.js" async></script>    
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 </html>
